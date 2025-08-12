@@ -4,8 +4,8 @@ public class GameRunner {
 
     // Tight Coupling - We are changing code to switch games
     // MarioGame game;
-    SuperContraGame game;
-    public GameRunner(SuperContraGame game) {
+    private GamingConsole game;
+    public GameRunner(GamingConsole game) {
         this.game = game;
     }
 
